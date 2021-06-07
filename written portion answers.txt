@@ -1,0 +1,6 @@
+Date-Time API
+
+1. LocalDateTime
+2. Add ((thursday - current day of week) - 7) days to the date.
+3. ZoneOffset just represents an offset from UTC. ZoneId contains the an offset from UTC and daylight savings time information.
+4. The Instant.atZone method; the ZonedDateTime.toInstant method.
